@@ -7,7 +7,7 @@ federate:
   mode: standalone
   total_round_num: 3
   sample_client_rate: 0.2
-  client_num: 5
+  client_num: 15
 data:
   root: data/
   type: femnist
