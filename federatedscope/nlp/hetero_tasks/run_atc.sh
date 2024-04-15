@@ -5,7 +5,7 @@ cd ../../..
 DEVICE=$1
 DEBUG=False
 
-python3 federatedscope/main.py \
+python3 ./federatedscope/main.py \
   --cfg federatedscope/nlp/hetero_tasks/baseline/config_atc.yaml \
   --client_cfg federatedscope/nlp/hetero_tasks/baseline/config_client_atc.yaml \
   federate.atc_load_from exp/atc/pretrain/ckpt/ \
