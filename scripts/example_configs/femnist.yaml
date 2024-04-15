@@ -5,11 +5,11 @@ early_stop:
 seed: 12345
 federate:
   mode: standalone
-  total_round_num: 300
+  total_round_num: 3
   sample_client_rate: 0.2
 data:
   root: data/
-  type: femnist
+  type: toy
   splits: [0.6,0.2,0.2]
   subsample: 0.05
   transform: [['ToTensor'], ['Normalize', {'mean': [0.9637], 'std': [0.1592]}]]
