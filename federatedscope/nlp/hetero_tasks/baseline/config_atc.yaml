@@ -6,7 +6,7 @@ federate:
   mode: standalone
   method: fedavg
   total_round_num: 100
-  client_num: 18
+  client_num: 36
 data:
   type: hetero_nlp_tasks
   root: datasets/
