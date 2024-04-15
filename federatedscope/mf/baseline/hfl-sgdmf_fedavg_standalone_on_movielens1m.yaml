@@ -8,7 +8,7 @@ federate:
   client_num: 5
 data:
   root: data/
-  type: HFLMovieLens1M
+  type: HFLMovieLens10M
 dataloader:
   type: mf
   theta: -1
