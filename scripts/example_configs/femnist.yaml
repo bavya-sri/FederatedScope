@@ -9,7 +9,7 @@ federate:
   sample_client_rate: 0.2
 data:
   root: data/
-  type: toy
+  type: femnist
   splits: [0.6,0.2,0.2]
   subsample: 0.05
   transform: [['ToTensor'], ['Normalize', {'mean': [0.9637], 'std': [0.1592]}]]
